@@ -501,7 +501,7 @@ class _CertificatesState extends State<Certificates> {
             CustomListTile(
               onTap: __cybersecuritysecond,
               img: 'assets/images/certificates/Udemy_Android.png',
-              title: 'Udemy',
+              title: 'classcentral',
               subtitle: 'Cyber Security',
             ),
             const SizedBox(

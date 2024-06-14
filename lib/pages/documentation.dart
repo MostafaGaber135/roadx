@@ -310,7 +310,7 @@ class _DocumentationState extends State<Documentation> {
       appBar: AppBar(
         backgroundColor: kPrimaryColor,
         leading: IconButton(
-             onPressed: () {
+            onPressed: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => const Nav()),
@@ -442,7 +442,7 @@ class _DocumentationState extends State<Documentation> {
               img:
                   'assets/images/content_of_stacks/android documentation link 2.png',
               title: 'okaythis',
-              subtitle: 'kotlinlang',
+              subtitle: 'Android Application',
             ),
             const SizedBox(
               height: 10,
@@ -452,7 +452,7 @@ class _DocumentationState extends State<Documentation> {
               img:
                   'assets/images/content_of_stacks/android documentation link 3.png',
               title: 'kotlinlang',
-              subtitle: 'kotlinlang',
+              subtitle: 'Android Application',
             ),
             // Crossplatform
             const SizedBox(
@@ -535,7 +535,7 @@ class _DocumentationState extends State<Documentation> {
             ),
             CustomListTile(
               onTap: __cybersecurityfirst,
-              img: 'assets/images/content_of_stacks/gfg-gg-logo.png',
+              img: 'assets/images/content_of_stacks/logo.png',
               title: 'simplilearn',
               subtitle: 'Cyber Security',
             ),

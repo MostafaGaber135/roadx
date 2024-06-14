@@ -16,15 +16,15 @@ final Uri _adobetooluiuxfifth = Uri.parse(
     'https://www.youtube.com/playlist?list=PL3TD0Gp7DEWu_c9M6gHqPq7Vi1mMopkPR');
 
 final Uri _figmatooluiuxfirst = Uri.parse(
-    'https://www.youtube.com/playlist?list=PLW-zSkCnZ-gD5TDfs1eL5EnH2mQ0f9g6B');
+    'https://www.youtube.com/playlist?list=PLttcEXjN1UcHu4tCUSNhhuQ4riGARGeap');
 final Uri _figmatooluiuxsecond = Uri.parse(
-    'https://www.youtube.com/playlist?list=PLjwm_8O3suyPkIphVrJaebR2qE8jylWBQ');
+    'https://www.youtube.com/playlist?list=PLjiHFwhbHYlHSpAflJwjsKAyMaMhASm0F');
 final Uri _figmatooluiuxthird = Uri.parse(
-    'https://www.youtube.com/playlist?list=PLRemWV5koZLBR1khj5OlC_xLkdsI8G5DF');
+    'https://www.youtube.com/playlist?list=PLkIliLHi5M4LosGOLzn2f6baDETNsYpCZ');
 final Uri _figmatooluiuxfourth = Uri.parse(
-    'https://www.youtube.com/playlist?list=PLhiFu-f80eo921vkdEKuYFZg4XQHuD4mB');
+    'https://www.youtube.com/playlist?list=PLjzhiGLyugKynpBi7v2AWMCJgTrRI6Ne-');
 final Uri _figmatooluiuxfifth = Uri.parse(
-    'https://www.youtube.com/playlist?list=PL3TD0Gp7DEWu_c9M6gHqPq7Vi1mMopkPR');
+    'https://www.youtube.com/playlist?list=PLIW7Uli0gP7h2wvikTq5zMh8PoOQWhlpw');
 
 class ChooseTheTool extends StatefulWidget {
   const ChooseTheTool({super.key});
@@ -101,7 +101,7 @@ class _ChooseTheToolState extends State<ChooseTheTool> {
       appBar: AppBar(
         backgroundColor: kPrimaryColor,
         leading: IconButton(
-           onPressed: () {
+            onPressed: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => const UIUXDesign()),
